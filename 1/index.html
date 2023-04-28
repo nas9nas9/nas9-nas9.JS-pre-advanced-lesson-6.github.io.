@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sign_up">
+            <h3 class="header">Please sign up</h3>
+            <form action="#" name="Sign_up">
+                <input type="text" class="registration" placeholder="First name" pattern="[a-zA-Z]{3,20}"><br>
+                <input type="text" class="registration" placeholder="Last name" pattern="[a-zA-Z]{3,20}"><br>
+                <input type="text" class="registration" placeholder="Email address"
+                    pattern=".\S+@[a-zA-Z]+\.[a-zA-Z]+"><br>
+                    <div class="modal hide">This email already exist</div>
+                <input type="password" class="registration" placeholder="Password" pattern="\w{8,15}"><br>
+                <input type="button" value="Sign Up" class="btn_reg" ><br>
+                <p class="text">Sign In now</p>
+            </form>
+        </div>
+
+        <div class="sign_in hide">
+            <h3 class="header">Please sign in</h3>
+            <form action="#" name="Sign_in">
+                <input type="text" class="log" placeholder="Email address"><br>
+                <input type="password" class="log" placeholder="Password"><br>
+                <input type="button" value="Sign In" class="btn_log"><br>
+                <div class="modal1 hide">LocalStorage is empty</div>
+                <p class="text1">Sign Up now</p>
+            </form>
+        </div>
+        <div class="profile hide">
+            <div class="avatar"></div>
+            <p class="name">Ivan Ivanov</p>
+            <p class="email">blabla</p>
+            <p class="position">Designer & Web Developing</p>
+            <hr>
+            <input type="button" value="Sign Up" class="btn_prf"><br>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-color:rgb(220, 216, 216);
+}
+.container {
+    width: 1300px;
+    margin: 20px auto;
+   
+}
+.sign_up {
+    position: relative;
+}
+.header {
+    font-size: 40px;
+    text-align: center;
+    margin: 30px;
+    font-weight: 400;
+}
+.registration {
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: 7px auto;
+    outline: none;
+    border: 2px solid rgb(170, 170, 170);
+    font-size: 20px;
+}
+.registration:focus {
+    outline: 2px solid rgb(0, 174, 255);
+}
+.btn_reg {
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: 7px auto;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.btn_reg:disabled {
+    opacity: 0.6;
+}
+.text {
+    color:rgb(0, 119, 255);
+    font-size: 15px;
+    margin: 5px 480px;
+    cursor: pointer;
+}
+.text:hover {
+    text-decoration: underline;
+}
+.sign_in {
+    margin-top: 150px;
+}
+.log {
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: 7px auto;
+    outline: none;
+    border: 2px solid rgb(170, 170, 170);
+    font-size: 20px;
+}
+.log:focus {
+    outline: 2px solid rgb(0, 174, 255);
+}
+.btn_log {
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: 7px auto;
+    background-color: rgb(2, 186, 30);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+/* .btn_log:disabled {
+    opacity: 0.6;
+} */
+.text1 {
+    color:rgb(0, 119, 255);
+    font-size: 15px;
+    margin: 0px 480px;
+    cursor: pointer;
+   
+}
+.text1:hover {
+    text-decoration: underline;
+}
+.profile {
+    width: 500px;
+    height: 500px;
+    margin: 80px auto;
+    background-color: white;
+    padding-top: 40px;
+}
+.avatar {
+    background-image: url(./avatar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+.name {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+.email {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.position {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+}
+hr {
+    width: 100px;
+    border: 1px solid rgb(73, 72, 72);
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.btn_prf {
+    display: block;
+    width: 500px;
+    height: 40px;
+    margin: 60px auto;
+    background-color: rgb(2, 186, 30);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+
+}
+.hide {
+    display: none;
+}
+.modal {
+    width: 130px;
+    height: 25px;
+    font-size: 10px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    left: 475px;
+    bottom: 170px;
+}
+.modal1 {
+    width: 130px;
+    height: 35px;
+    font-size: 10px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    left: 572px;
+    bottom: 345px;
+}
